@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background: #081b29;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame {
+  width: 50%;
+  height: 50%;
+  background: linear-gradient(
+    to right bottom,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb
+  );
+}
+
+/* Create a container with a border around the frame */
+.cntnrs {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background: #081b29;
+}
+
+/* Apply a shadow effect to an element */
+.shadow {
+  width: 50%;
+  height: 50%;
+  z-index: -1;
+  background: linear-gradient(
+    to right bottom,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb,
+    #61dafb
+  );
+  filter: blur(10px);
+}
+.Narain {
+  color: #00abf0;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(8, 216, 231, 0.9);
+  margin-bottom: 10px; /* Add margin to separate lines */
+}
+
+.Karthick {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 224, 240, 0.9);
+}
+.nks {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+.nks a {
+  color: #00abf0;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(8, 216, 231, 0.9);
+  margin-bottom: 10px; /* Add margin to separate lines */
+}
+/* add style for the nave bar */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0; /* Position the navbar on the right side */
+  z-index: 1;
+}
+
+/*set the style for the links in the nave bar and fit to the right */
+/* 
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+/*set  the container full screen it is not appltying*/
+@media (max-width: 768px) {
+  .fixed-top {
+    top: 25px; /* Adjust this value as needed to ensure visibility */
+  }
+}
+.narr a{
+  text-decoration: none !important;
+  color: #000;
+}
+.cntnrs {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: -3px;
+  background: #081b29;
+}
+.narr a:hover{
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.navbar a:not(:first-child) {
+  display: none;
+}
+
+.card-header {
+  /* position: sticky; */
+  top: 20;
+  z-index: 1;
+  background: #ffffff00;
+  padding-top: 10px;
+}
+
+/*make the card background transparent*/
+.card {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.scrollable-cntnrs {
+  overflow: auto;
+  height: 300px;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.25);
+}
+.btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+.btn:active {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+.abt {
+  color: #00abf0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #00abf0;
+  padding-bottom: 5px;
+}
+.card {
+  margin: 10px; /* Adjust the value as needed */
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.abt:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+/*card text color*/
+
+.card-title {
+  color: #00abf0;
+}
+/*card text color*/
+.card-text {
+  color: #2584e3;
+}
+.nkp:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+/* card color should be random*/
+.card {
+  background: linear-g radient(to right, #00abf0, #00abf0);
+  color: #fff;
+}

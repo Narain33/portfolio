@@ -1,0 +1,43 @@
+/* "footer.css" */
+
+.footer {
+  background-color:#1f85cf; /* Background color for the entire footer */
+  color: #fff; /* Text color for the footer */
+  padding: 20px 0; /* Add some padding to the top and bottom */
+}
+
+.footer1 {
+  /* Styles for the name and role section */
+}
+
+.footer1 h1 {
+  font-size: 24px; /* Example font size for the name */
+}
+
+.footer1 h6 {
+  font-size: 16px; /* Example font size for the role */
+}
+
+.footer2 {
+  /* Styles for the links section */
+}
+
+.footer2 a {
+  color:black; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  margin-right: 20px; /* Add some spacing between links */
+}
+
+.footer2 a:hover {
+  color: #fff; /* Change link color on hover */
+}
+
+/* Center-align text in the footer */
+.text-center {
+  text-align: center;
+}
+
+/* Styling for "All Rights Reserved" text */
+.text-center p {
+  margin-top: 10px; /* Add spacing between content and "All Rights Reserved" text */
+}

@@ -1,0 +1,127 @@
+.cntct {
+    background-color:  #081B29;
+    padding: 20px;
+  }
+  
+  .cntct1 {
+    padding: 10px;
+  }
+  
+  .cntct2 {
+    padding: 10px;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* apply the css for the paragraph*/
+    .cntct p{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply css for the h1*/
+    .cntct h1{
+        color: white;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+/*apply the css for the form label*/
+    .cntct label{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply the css for the form input*/
+    .cntct input{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply the css for the form button*/
+    .cntct button{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply the css for the form button*/
+    .cntct textarea{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply the css for the form button*/
+    .cntct select{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply the css for the form button*/
+    .cntct option{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply the css for the form button*/
+    .cntct .form-control{
+        color:  #081B29;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* apply the css for the form button*/
+    .cntct .form-control:focus{
+        color:  #081B29;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /*glow the git class when i hover*/
+    .git {
+        /* Define initial styles */
+        box-shadow: none; /* Initial box-shadow */
+        border-radius: 0; /* Initial border-radius */
+        transition: box-shadow 0.5s ease, border-radius 0.5s ease; /* Add transitions */
+    }
+    
+    .git:hover {
+        box-shadow: 0 0 10px #1f85cf; /* New box-shadow on hover */
+        border-radius: 50%; /* New border-radius on hover */
+    }
+    
+    .linkedin {
+        /* Define initial styles */
+        box-shadow: none; /* Initial box-shadow */
+        border-radius: 0; /* Initial border-radius */
+        transition: box-shadow 0.5s ease, border-radius 0.5s ease; /* Add transitions */
+    }
+    
+    .linkedin:hover {
+        box-shadow: 0 0 10px #1f85cf; /* New box-shadow on hover */
+        border-radius: 50%; /* New border-radius on hover */
+    }
+
+    .insta {
+        /* Define initial styles */
+        box-shadow: none; /* Initial box-shadow */
+        border-radius: 0; /* Initial border-radius */
+        transition: box-shadow 0.5s ease, border-radius 0.5s ease; /* Add transitions */
+    }
+    
+    .insta:hover {
+        box-shadow: 0 0 10px #1f85cf; /* New box-shadow on hover */
+        border-radius: 50%; /* New border-radius on hover */
+    }
+    /*apply design for the download cv*/
+    .cntct .btn{
+        background-color: #081B29;
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }

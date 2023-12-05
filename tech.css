@@ -1,0 +1,72 @@
+/* Define styles for the container */
+.tech {
+  padding: 20px;
+  background-color: #081b29;
+}
+
+/* Define styles for individual technology items */
+.Java,
+.bootstrap,
+.js,
+.php,
+.sql,
+.db {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #b80909;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Java img,
+.bootstrap img,
+.js img,
+.php img,
+.sql img,
+.db img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Java h3,
+.bootstrap h3,
+.js h3,
+.php h3,
+.sql h3,
+.db h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+.Java,.bootstrap,.js,.php,.sql,.db {
+  transition: 1s;
+} 
+.Java,.bootstrap,.js,.php,.sql,.db:hover {
+  transition: 1s;
+} 
+.Java:hover {
+  transform: rotate(30deg);
+}
+
+.bootstrap:hover {
+  transform: rotate(30deg);
+}
+
+.js:hover {
+  transform: rotate(30deg);
+}
+
+.php:hover {
+  transform: rotate(30deg);
+}
+
+.sql:hover {
+  transform: rotate(30deg);
+}
+
+.db:hover {
+  transform: rotate(30deg);
+}
